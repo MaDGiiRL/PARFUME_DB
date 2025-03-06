@@ -22,7 +22,22 @@ class ParfumRequest extends FormRequest
     public function rules(): array
     {
         return [
-            //
+            'name' => 'required',
+            'scent' => 'required',
+            'price' => 'required',
+            'body' => 'required|min: 150',
+            'img' => 'required|image|mimes:jpeg,png,webp'
+        ];
+    }
+
+    public function messages()
+    {
+        return [
+            'required' => ':attribute input is required.',
+            'min' => ':attribute must be at least :min char.',
+            'img.image' => 'File must be an image.',
+            'img.mimes' => 'File format must be .jpeg, .png, .webp'
+
         ];
     }
 }

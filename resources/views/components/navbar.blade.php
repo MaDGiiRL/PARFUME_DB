@@ -11,7 +11,7 @@
                         <li class="nav-item"><a class="nav-link" href="{{route('shop')}}">SHOP</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{route('about')}}">ABOUT</a></li>
                     </ul>
-                    <a class="navbar-brand" href="#"><img src="/images/logo.png" alt=""></a>
+                    <a class="navbar-brand" href="{{ route('homepage') }}"><img src="/images/logo.png" alt=""></a>
                     <ul class="navbar-nav">
                         <li class="nav-item"><a class="nav-link" href="{{route('parfum.create')}}">FEEDBACK</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{route('contact')}}">CONTACT</a></li>
