@@ -13,7 +13,7 @@
                     </ul>
                     <a class="navbar-brand" href="#"><img src="/images/logo.png" alt=""></a>
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="{{route('blog')}}">BLOG</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{route('parfum.create')}}">FEEDBACK</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{route('contact')}}">CONTACT</a></li>
                         <li class="nav-item"><a class="nav-link cart-icon" href="#">🛒</a></li>
                     </ul>

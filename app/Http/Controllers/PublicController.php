@@ -2,12 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Parfum;
 use Illuminate\Http\Request;
 
 class PublicController extends Controller
 {
     public function homepage()
     {
+
         return view('homepage');
     }
 
@@ -21,14 +23,14 @@ class PublicController extends Controller
         return view('about');
     }
 
-    public function blog()
+    public function feedback()
     {
-        return view('blog');
+        $parfums = Parfum::latest()->take(3)->get();
+        return view('parfum.create', compact('parfums'));
     }
 
     public function contact()
     {
         return view('contact');
     }
-    
 }
