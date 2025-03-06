@@ -8,13 +8,13 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="#">SHOP</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{route('shop')}}">SHOP</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{route('about')}}">ABOUT</a></li>
                     </ul>
                     <a class="navbar-brand" href="#"><img src="/images/logo.png" alt=""></a>
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="#">BLOG</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{route('blog')}}">BLOG</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{route('contact')}}">CONTACT</a></li>
                         <li class="nav-item"><a class="nav-link cart-icon" href="#">🛒</a></li>
                     </ul>
                 </div>
