@@ -257,6 +257,7 @@ ul {
 
 
 /* Feedback */
+
 .feedback h1 {
     font-family: "light";
     font-size: 5rem;
@@ -307,6 +308,25 @@ ul {
 
 
 /* Reviews */
+.review-form {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+.review-form h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.form-control {
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+.alert-danger {
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 0.9rem;
+}
+
 .carousel-control-prev,
 .carousel-control-next {
     filter: invert(1);
@@ -327,3 +347,111 @@ ul {
     margin-bottom: 10px;
 }
 
+/* About */
+.header-about {
+    background: url('/public/images/about.png') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.header-about h1 {
+    font-family: "Light";
+    font-size: 6rem;
+    letter-spacing: 1px;
+
+}
+
+.highlight {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.info-box {
+    text-align: center;
+    padding: 20px;
+}
+
+.info-box h5 {
+    font-size: 0.9rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.info-box p {
+    font-size: 1rem;
+    color: #555;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.accordion-button {
+    font-weight: bold;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.accordion-item {
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+/* Contact */
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+.contact-form h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.contact-form p {
+    font-size: 1rem;
+    color: #666;
+}
+.form-control {
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+.btn-custom {
+    background-color: #a4a12f;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+}
+.btn-custom:hover {
+    background-color: #8a8925;
+}
+
+/* Shop */
+.header-shop {
+    background: url('/public/images/allfragrances.png') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.header-shop h1 {
+    font-family: "Light";
+    font-size: 6rem;
+    letter-spacing: 1px;
+
+}

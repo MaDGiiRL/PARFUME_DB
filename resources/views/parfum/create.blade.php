@@ -17,7 +17,7 @@
 
 
         <div class="row justify-content-center py-5 mb-5">
-            <div class="col-12 col-md-6 border shadow rounded bg-white p-5 mt-5 mb-5">
+            <div class="col-12 col-md-6 p-5 mt-5 mb-5">
 
                 <form method="POST" action="{{route('parfum.store')}}" enctype="multipart/form-data">
                     @csrf

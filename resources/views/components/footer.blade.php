@@ -2,7 +2,7 @@
     <div class="custom-footer">
         <div class="row p-5 justify-content-center">
             <div class="col-md-6">
-                <p class="fs-5">We send <em>great</em> emails.</p>
+                <p class="fs-5">We send <strong><em>great</em></strong> emails.</p>
                 <div class="d-flex">
                     <input type="email" class="email-input me-2" placeholder="Enter your email">
                     <button class="btn subscribe-btn">SUBSCRIBE</button>

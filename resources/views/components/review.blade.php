@@ -72,7 +72,7 @@
                     <div class="col-md-4">
                         <div class="review-card">
                             <p>⭐⭐⭐⭐⭐</p>
-                            <p>“A perfume that brings pure joy! Every note is well-balanced and long-lasting. Absolutely in love with it!”</p>
+                            <p>““In love with these floral perfumes! The scents are balanced, not overpowering, and evoke a sense of serenity. I appreciate their commitment to sustainability too.””</p>
                             <h6>Emily D.</h6>
                             <p class="text-muted">NEW YORK, NY</p>
                         </div>
@@ -80,7 +80,7 @@
                     <div class="col-md-4">
                         <div class="review-card">
                             <p>⭐⭐⭐⭐⭐</p>
-                            <p>“The perfect scent for any occasion! It’s fresh, floral, and lasts all day without being overwhelming.”</p>
+                            <p>“Delighted to have found a perfume that uplifts my mood and receives compliments wherever I go. The scents are like a bouquet of nature’s finest flowers fresh every day.”</p>
                             <h6>Lucas M.</h6>
                             <p class="text-muted">LOS ANGELES, CA</p>
                         </div>
@@ -88,7 +88,7 @@
                     <div class="col-md-4">
                         <div class="review-card">
                             <p>⭐⭐⭐⭐⭐</p>
-                            <p>“In love with these floral perfumes! The scents are balanced, not overpowering, and evoke a sense of serenity.”</p>
+                            <p>“A definite must-have for anyone seeking an enchanting and long-lasting fragrance experience. A true floral symphony in every bottle!”</p>
                             <h6>Sophia T.</h6>
                             <p class="text-muted">CHICAGO, IL</p>
                         </div>
