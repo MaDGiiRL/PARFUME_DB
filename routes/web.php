@@ -8,6 +8,10 @@ use App\Http\Controllers\ReviewController;
 Route::get('/', [PublicController::class, 'homepage'])->name('homepage');
 Route::get('/about', [PublicController::class, 'about'])->name('about');
 Route::get('/contact', [PublicController::class, 'contact'])->name('contact');
+Route::get('/contact', [PublicController::class, 'contact'])->name('contact');
+Route::get('/work/page', [PublicController::class, 'work'])->name('work');
+
+
 Route::get('/shop', [PublicController::class, 'shop'])->name('shop');
 Route::get('/shop/{id}', [PublicController::class, 'show'])->name('shop.show');
 Route::get('/shop/{id}', [PublicController::class, 'show'])->name('show');

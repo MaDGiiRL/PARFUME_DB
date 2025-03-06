@@ -122,4 +122,12 @@ class PublicController extends Controller
     {
         return view('contact');
     }
+
+
+    public function work(){
+        
+        return view('work');
+    }
+
+
 }
