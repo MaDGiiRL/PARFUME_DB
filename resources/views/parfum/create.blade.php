@@ -1,7 +1,9 @@
 <x-layout title="Review">
     <div class="container featured pt-5 mt-5">
 
-        <div class="row pt-5 feedback">
+        <div class="row pt-5 feedback" data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
             <div class="col-10 text-center py-5">
                 <h1>All <em>feedbacks</em>.</h1>
             </div>
@@ -17,7 +19,9 @@
 
 
         <div class="row justify-content-center py-5 mb-5">
-            <div class="col-12 col-md-6 p-5 mt-5 mb-5">
+            <div class="col-12 col-md-6 p-5 mt-5 mb-5" data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
 
                 <form method="POST" action="{{route('parfum.store')}}" enctype="multipart/form-data">
                     @csrf

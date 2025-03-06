@@ -38,7 +38,9 @@
         }
     </style>
     <div class="container-detail">
-        <div class="row my-5 pty-5">
+        <div class="row my-5 pty-5" data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
             <div class="col-md-6">
                 <img src="{{ asset($parfum['image']) }}" class="detail-img" alt="Meadow Parfum">
             </div>

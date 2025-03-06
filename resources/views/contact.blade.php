@@ -2,9 +2,13 @@
     <div class="container py-5 mt-5">
         <div class="row pt-5 mt-5">
             <div class="col-6">
-                <img src="/images/contact.png" class="img-fluid">
+                <img src="/images/contact.png" class="img-fluid" data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
             </div>
-            <div class="col-6">
+            <div class="col-6" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
                 <div class="contact-form mt-5">
                     <h2>Let’s chat.</h2>
                     <p>Send us a message and we’ll get right back to you.</p>
@@ -33,5 +37,8 @@
 
     <x-marquee />
 
+    <x-featured />
+    
     <x-review />
+
 </x-layout>

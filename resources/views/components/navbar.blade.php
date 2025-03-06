@@ -1,7 +1,9 @@
 <!-- Navbar -->
 <div class="container">
     <div class="row justify-content-center">
-        <nav class="navbar navbar-expand-lg navbar-light rounded-pill">
+        <nav class="navbar navbar-expand-lg navbar-light rounded-pill"data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
             <div class="container">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>

@@ -1,4 +1,6 @@
-<footer class="container text-center text-md-start pb-5">
+<footer class="container text-center text-md-start pb-5" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="2500">
     <div class="custom-footer">
         <div class="row p-5 justify-content-center">
             <div class="col-md-6">

@@ -13,7 +13,9 @@
             <h2 class="fw-bold">Shop <em>fragrances</em>.</h2>
 
             @foreach($parfums as $parfum)
-            <div class="col-md-3 pt-3">
+            <div class="col-md-3 pt-3" data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
                 @if($parfum['on_sale'])
                 <div class="featured-card position-relative p-3">
                     <span class="sale-badge">ON SALE</span>

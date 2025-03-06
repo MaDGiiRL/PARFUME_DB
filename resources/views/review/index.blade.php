@@ -2,14 +2,18 @@
     <div class="container pt-5 mt-5">
         <div class="row justify-content-center py-5 mb-5">
 
-            <div class="col-12 col-md-6 d-flex justify-content-center p-5 flex-column mb-5 align-items-center">
+            <div class="col-12 col-md-6 d-flex justify-content-center p-5 flex-column mb-5 align-items-center" data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
                 <img src="/images/rev.png" class="img-fluid" width="300px">
                 <h2 class="fw-bold pt-5">Write your <em>review</em>.</h2>
                 <p class="text-center">Share your thoughts on our fragrances! 🌸 Your review helps us improve and create scents you’ll love even more.</p>
 
             </div>
 
-            <div class="col-12 col-md-6  mt-5 mb-5">
+            <div class="col-12 col-md-6  mt-5 mb-5" data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
 
                 <form method="POST" action="{{route('review.store')}}">
                     @csrf
@@ -58,7 +62,9 @@
 
 
             @foreach ($reviews as $review)
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
                 <div class="review-card my-4">
                     <p>⭐⭐⭐⭐⭐ {{$review->rate}}</p>
                     <p>“{{$review->comment}}”</p>

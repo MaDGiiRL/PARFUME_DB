@@ -1,4 +1,6 @@
-<div class="col-md-4">
+<div class="col-md-4" data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
     <div class="card p-5 custom-card my-4">
         <img src="{{Storage::url($parfum->img)}}" alt="Fragrance Routine">
         <p><span class="badge-custom mt-2 d-inline-block border-custom rounded-pill px-2 mt-3">{{$parfum->scent}}</span></p>

@@ -1,10 +1,14 @@
 
 <div class="container py-5 mb-5">
-    <h2 class="display-3 p-5">You’ve got <em>questions</em>, we’ve got <em>answers</em>.</h2>
+    <h2 class="display-3 p-5" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">You’ve got <em>questions</em>, we’ve got <em>answers</em>.</h2>
     <div class="accordion" id="faqAccordion">
 
         <!-- Prima domanda -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
             <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                     HOW LONG CAN I EXPECT THE FRAGRANCE TO LAST ON MY SKIN?
@@ -18,7 +22,9 @@
         </div>
 
         <!-- Seconda domanda -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="1800">
             <h2 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                     ARE YOUR PERFUMES SUITABLE FOR SENSITIVE SKIN OR ALLERGIES?
@@ -32,7 +38,9 @@
         </div>
 
         <!-- Terza domanda -->
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="2000">
             <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     HOW DO YOU ENSURE YOUR COMMITMENT TO SUSTAINABILITY?
