@@ -36,7 +36,7 @@
                         @enderror
                     </div>
                     <div class=" mb-3">
-                        <label class="form-label">Review</label>
+                        <label class="form-label">Feedback</label>
                         <textarea name="body" cols="30" rows="10" class="form-control">{{old('body')}}</textarea>
                         @error('body')
                         <div class="alert alert-danger">{{$message}}</div>

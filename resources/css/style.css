@@ -26,6 +26,9 @@ body {
 
 }
 
+h2 {
+    font-family: "Regular";
+}
 
 
 /* Banner Annuncio */
@@ -245,18 +248,20 @@ body {
 .subscribe-btn:hover {
     background-color: white;
     background-image: linear-gradient(to left, rgba(171, 178, 73, 0.267), rgba(232, 170, 76, 0.26));
-     color: black;
+    color: black;
 }
-ul{
+
+ul {
     list-style: none;
 }
 
 
 /* Feedback */
-.feedback h1{
+.feedback h1 {
     font-family: "light";
     font-size: 5rem;
 }
+
 .feedback-card {
     border-radius: 20px;
     overflow: hidden;
@@ -264,11 +269,13 @@ ul{
     padding: 15px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
+
 .feedback-card img {
     border-radius: 15px;
     width: 100%;
     height: auto;
 }
+
 .badge-feedback {
     background-color: #c6c39f;
     color: black;
@@ -277,18 +284,46 @@ ul{
     border-radius: 20px;
     font-size: 12px;
 }
+
 .card-title {
     font-size: 1.2rem;
     font-weight: bold;
     margin-top: 10px;
 }
+
 .card-text {
     font-size: 0.9rem;
     color: gray;
 }
-.card{
+
+.card {
     background-color: #fffafc96;
 }
-.border-custom{
+
+.border-custom {
     border: 1px solid var(--peas)
 }
+
+
+
+/* Reviews */
+.carousel-control-prev,
+.carousel-control-next {
+    filter: invert(1);
+}
+
+.review-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.review-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+

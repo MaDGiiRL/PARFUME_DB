@@ -14,7 +14,7 @@
 
     <x-point />
 
-
+    <x-review />
 
 
 </x-layout>
