@@ -1,0 +1,252 @@
+:root {
+    --wash: #FFF0F7;
+    --orange: #DD6249;
+    --peas: #ABB249;
+    --yellow: #E8A94C;
+}
+
+@font-face {
+    font-family: "Regular";
+    src: url(/public/fonts/Sentient-Regular.otf);
+}
+
+@font-face {
+    font-family: "Light";
+    src: url(/public/fonts/Sentient-Light.otf);
+}
+
+@font-face {
+    font-family: "LightItalic";
+    src: url(/public/fonts/Sentient-LightItalic.otf);
+}
+
+body {
+    font-family: "Poppins";
+    background-color: var(--wash);
+
+}
+
+
+
+/* Banner Annuncio */
+.announcement-banner {
+    background-color: #a8ad48;
+    color: black;
+    text-align: center;
+    padding: 8px 20px;
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1050;
+}
+
+.close-btn {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Navbar */
+.navbar {
+    position: absolute;
+    top: 40px;
+    width: 97%;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.nav-link {
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+
+.cart-icon {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Sezione header */
+.header {
+    background: url('/public/images/Rectangle.png') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.header h1 {
+    font-family: "Light";
+    font-size: 6rem;
+    letter-spacing: 1px;
+
+}
+
+.header p {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.btn-shop {
+    background: white;
+    color: black;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    transition: all 1s;
+}
+
+.btn-shop:hover {
+    color: black;
+    background-color: white;
+    background-image: linear-gradient(to left, rgba(171, 178, 73, 0.267), rgba(232, 170, 76, 0.26))
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .header p {
+        font-size: 1rem;
+    }
+}
+
+
+/* Featured */
+.featured h2 {
+    font-family: "Light";
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+.featured-card {
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.featured-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.sale-badge {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background: #f4b860;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.featured-name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.featured-desc {
+    font-size: 14px;
+    color: gray;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.btn-featured {
+    background: #a8ad48;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 15px;
+    text-transform: uppercase;
+    transition: all 1s;
+}
+
+.btn-featured:hover {
+    background: #c3c953;
+    color: black;
+}
+
+/* Marquee */
+.bg-yellow {
+    background-color: var(--yellow);
+}
+
+
+/* Footer */
+
+.custom-footer {
+    background-color: #D15F46;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 100px
+}
+
+.custom-footer a {
+    color: white;
+    text-decoration: none;
+    font-family: "Light";
+}
+
+.custom-footer a:hover {
+    text-decoration: underline;
+}
+
+.brand-title {
+    font-size: 4rem;
+    font-family: serif;
+    font-weight: bold;
+}
+
+.email-input {
+    border-radius: 20px;
+    padding: 0.5rem;
+    border: none;
+    width: 70%;
+}
+
+.subscribe-btn {
+    border-radius: 20px;
+    border: none;
+    padding: 0.5rem 1rem;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    transition: all 1s;
+}
+
+.subscribe-btn:hover {
+    background-color: white;
+    background-image: linear-gradient(to left, rgba(171, 178, 73, 0.267), rgba(232, 170, 76, 0.26));
+     color: black;
+}
+ul{
+    list-style: none;
+}
