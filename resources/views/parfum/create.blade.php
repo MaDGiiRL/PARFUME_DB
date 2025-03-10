@@ -12,7 +12,7 @@
                     <p class="card-text pt-1 pe-3">SEE ALL</p> <a href="{{route('parfum.index')}}"><i class="bi bi-arrow-right link-dark fs-5"></i></a>
                 </div>
             </div>
-            @foreach ($parfums as $parfum)
+            @foreach ($parfums->take(3) as $parfum)
             <x-card :parfum="$parfum" />
             @endforeach
         </div>
