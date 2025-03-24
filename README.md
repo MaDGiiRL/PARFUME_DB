@@ -63,27 +63,6 @@ php artisan serve
 ```
 
 Now open **http://127.0.0.1:8000/** in your browser to explore the site.
-
----
-
-## 🚀 API Endpoints
-
-This project includes a **custom API** for managing perfumes and blog content. Some available endpoints:
-
-### 📦 Perfume API
-- 📌 **Get All Perfumes**: `GET /api/perfumes`
-- 📌 **Get Single Perfume**: `GET /api/perfumes/{id}`
-- 📌 **Create New Perfume**: `POST /api/perfumes`
-- 📌 **Update Perfume**: `PUT /api/perfumes/{id}`
-- 📌 **Delete Perfume**: `DELETE /api/perfumes/{id}`
-
-### 📝 Blog API
-- 📌 **Get All Blog Posts**: `GET /api/blog`
-- 📌 **Get Single Blog Post**: `GET /api/blog/{id}`
-- 📌 **Create New Blog Post**: `POST /api/blog`
-- 📌 **Update Blog Post**: `PUT /api/blog/{id}`
-- 📌 **Delete Blog Post**: `DELETE /api/blog/{id}`
-
 ---
 
 ## 💡 Contributions & Improvements
